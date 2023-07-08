@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Admin\\": "admin",
+      "Engine\\": "engine",
+      "Cms\\": "cms",
+      "Engine\\DI\\": "engine/DI",
+      "Engine\\Core\\Database\\": "engine/Core/Database",
+      "Engine\\Core\\Config\\": "engine/Core/Config"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-mbstring": "*"
+  }
+}
